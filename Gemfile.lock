@@ -1,0 +1,32 @@
+PATH
+  remote: .
+  specs:
+    addressable-prettify (0.1)
+      addressable (~> 2.8)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    minitest (5.15.0)
+    minitest-power_assert (0.3.1)
+      minitest
+      power_assert (>= 1.1)
+    power_assert (2.0.1)
+    public_suffix (4.0.6)
+    rake (13.0.6)
+
+PLATFORMS
+  arm64-darwin-20
+  arm64-darwin-21
+
+DEPENDENCIES
+  addressable-prettify!
+  bundler (~> 2.2)
+  minitest (~> 5.14)
+  minitest-power_assert (~> 0.3)
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.3.9
