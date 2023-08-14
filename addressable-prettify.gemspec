@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'addressable-prettify'
-  s.version       = '0.1'
+  s.version       = '0.2'
   s.summary       = 'Prettifies Addressable::URI objects'
   s.author        = 'John Labovitz'
   s.email         = 'johnl@johnlabovitz.com'
